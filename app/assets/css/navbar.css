@@ -1,0 +1,40 @@
+.navbar {
+    padding: 20px 60px;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 500;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+.nav-link:hover {
+    color: #B88E2F;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-left: 40px;
+}
+
+.nav-icons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
