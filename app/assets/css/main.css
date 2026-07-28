@@ -24,3 +24,12 @@ body {
     background-color: #B88E2F;
     color: #fff;
 }
+
+.btn-furniro{
+    background-color: #B88E2F;
+    color: white;
+}
+
+.btn-furniro:hover{
+    background-color: #a67d25;
+}
