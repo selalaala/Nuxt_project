@@ -6,34 +6,30 @@
         <h2>Furniro</h2>
       </div>
 
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
 
 
       <div class="collapse navbar-collapse" id="navbarNav">
            <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link mx-3" href="#">Home</a>
+            <li class="nav-item">
+              <NuxtLink to="/" class="nav-link mx-3">Home</NuxtLink>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link mx-3" href="#">Shop</a>
+            <NuxtLink to="/shop" class="nav-link mx-3">Shop</NuxtLink>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link mx-3" href="#">About</a>
+            <NuxtLink to="/about" class="nav-link mx-3">About</NuxtLink>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link mx-3" href="#">Contact</a>
+            <NuxtLink to="/" class="nav-link mx-3">Contact</NuxtLink>
           </li>
         </ul>
-        </div>
+      </div>
 
 
       <div class="nav-icon d-flex align-items-center gap-4">      
