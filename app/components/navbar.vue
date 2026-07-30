@@ -22,11 +22,11 @@
           </li>
 
           <li class="nav-item">
-            <NuxtLink to="/about" class="nav-link mx-3">About</NuxtLink>
+            <NuxtLink to="/blog" class="nav-link mx-3">Blog</NuxtLink>
           </li>
 
           <li class="nav-item">
-            <NuxtLink to="/" class="nav-link mx-3">Contact</NuxtLink>
+            <NuxtLink to="/contact" class="nav-link mx-3">Contact</NuxtLink>
           </li>
         </ul>
       </div>
