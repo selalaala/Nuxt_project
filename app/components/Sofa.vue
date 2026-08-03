@@ -27,8 +27,8 @@
                     </div>
                     <div>
                         <button type="button" class="btn btn-default">- 1 +</button>
-                        <button type="button" class="btn btn-default">Add To cart</button>
-                        <button type="button" class="btn btn-default">+ Compare</button>
+                        <button type="button" class="btn btn-default"><NuxtLink to="/cart" class="text-decoration-none">Add To cart</NuxtLink></button>
+                        <button type="button" class="btn btn-default"><NuxtLink to="/produk-comparison" class="text-decoration-none">Compare</NuxtLink></button>
                     </div>
                     <div>
                         <p>SKU : SS001</p>
@@ -50,6 +50,5 @@
 <style>
 .btn-default {
     border-color: black;
-
 }
 </style>

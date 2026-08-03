@@ -3,11 +3,10 @@
     <div class="product-item">
       <img :src="product.image" class="product-image" alt="" />
       <div class="overlay">
-      <button class="btn btn-light">Add to Cart</button>
+      <button class="btn"><NuxtLink to="/cart" class="btn btn-cart">Add to Cart</NuxtLink></button>
       <div class="overlay-menu">
-        <span><i class="bi bi-share"></i><NuxtLink to="/sofa">Share</NuxtLink> </span>
-        <span><i class="bi bi-arrow-left-right"></i> Compare</span>
-        <span><i class="bi bi-heart"></i> Like</span>
+        <span><i class="bi bi-share"></i> <NuxtLink to="/sofa" class="btn-link text-light text-decoration-none">Share</NuxtLink> </span>
+        <span><i class="bi bi-arrow-left-right">  </i><NuxtLink to="/produk-comparison" class="btn-link text-light text-decoration-none">Compare</NuxtLink></span>
       </div>
     </div>
     </div>
@@ -34,6 +33,12 @@ defineProps({
 .product-info {
   padding-top: 10px;
   background-color: #F4F5F7;
+}
+
+.btn-cart{
+    color: #B88E2F;
+    background-color: #fff;
+    margin: 35px;
 }
 
 .product-info h5 {

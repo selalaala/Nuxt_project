@@ -1,6 +1,6 @@
 <template>
     <section class="quality">
-        <div class="container py-5">
+        <div class="container pb-5">
             <div class="row">
                 <div class="col-md-3">
                     <div class="d-flex align-items-center">

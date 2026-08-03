@@ -1,12 +1,6 @@
 <template>
   <section>
-
-    <BlogCard
-      v-for="item in blogs"
-      :key="item.id"
-      :blog="item"
-    />
-
+    <BlogCard v-for="item in blogs":key="item.id":blog="item"/>
   </section>
 </template>
 

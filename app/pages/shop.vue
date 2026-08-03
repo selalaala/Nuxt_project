@@ -3,7 +3,7 @@
     <Navbar />
     <PageBanner title="Shop" />
     <ShopFilter />
-    <ProductSection   :showHeading="false" :products="products" :showButton="false"/>
+    <ProductSection :showHeading="false" :products="products" :showButton="false"/>
     <Quality />
     <Footer />
   </div>

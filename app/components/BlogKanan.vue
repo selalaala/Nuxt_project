@@ -52,6 +52,7 @@
 <script setup>
 import blog1 from '~/assets/svg/blog1.svg'
 import blog2 from '~/assets/svg/blog2.svg'
+import bloghandmade from '~/assets/svg/bloghandmade.svg'
 
 
 const categories = [
@@ -93,6 +94,12 @@ const recentPosts = [
     id:2,
     image:blog2,
     title:"Exploring new ways of decorating",
+    date:"03 Aug 2022"
+  },
+  {
+    id:3,
+    image:bloghandmade,
+    title:"Handmade pieces that took time to make",
     date:"03 Aug 2022"
   }
 ]

@@ -17,6 +17,28 @@
   </section>
 </template>
 
-<script setup>
-import '~/assets/css/hero.css'
-</script>
+<style scoped>
+.hero {
+    background:url('~/assets/svg/background-discover.svg') ;
+    min-height: 700px;
+}
+
+.card {
+    top: 200px;
+    background-color: #FFF3E3;
+    padding: 20px 20px;
+}
+
+.hero-tittle {
+    color: #B88E2F;
+}
+
+.btn-furniro{
+    background-color: #B88E2F;
+    color: white;
+}
+
+.btn-furniro:hover{
+    background-color: #a67d25;
+}
+</style>
