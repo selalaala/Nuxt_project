@@ -12,17 +12,25 @@
         </div>
         <div class="d-flex align-items-center gap-3">
           <label class="mb-0">Show</label>
-          <input type="text" value="16" class="form-control w-auto">
+          <input type="text" value="16" class="form-control sort-input">
           <label class="mb-0">Sort by</label>
-          <input type="text" value="Default" class="form-control w-auto">
+          <input type="text" value="Default" class="form-control sort-input">
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<style>
+<style scoped>
 .shop-filter {
     background-color: #FFF3E3;
+}
+
+@media (max-width: 991px) {
+    .shop-filter .d-flex.justify-content-between {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 20px;
+    }
 }
 </style>

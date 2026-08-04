@@ -9,7 +9,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="position-relative">
-                    <img src="../assets/svg/inner-peace.svg" class="img-fluid w-100 room-img" alt="">
+                    <img src="/svg/inner-peace.svg" class="img-fluid w-100 room-img" alt="">
                     <div class="room-info position-absolute">
                             <small class="text-secondary"> 01 —— Bed Room</small>
                             <h4 class="fw-bold mt-2">Inner Peace</h4>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <img src="../assets/svg/kitchen.svg" class="img-fluid w-100 room-img" alt="">
+                <img src="/svg/kitchen.svg" class="img-fluid w-100 room-img" alt="">
                 <div class="d-flex justify-content-center gap-2 mt-4">
                     <span class="dot active"></span>
                     <span class="dot"></span>

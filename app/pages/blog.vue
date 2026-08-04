@@ -19,14 +19,10 @@
 
 
 <script setup>
-import blog1 from '~/assets/svg/blog1.svg'
-import blog2 from '~/assets/svg/blog2.svg'
-import bloghandmade from '~/assets/svg/bloghandmade.svg'
-
 const blogs = [
   {
     id:1,
-    image: blog1,
+    image: '/svg/blog1.svg',
     admin:"Admin",
     date:"14 Oct 2022",
     category:"Wood",
@@ -35,7 +31,7 @@ const blogs = [
   },
   {
     id:2,
-    image: blog2,
+    image: '/svg/blog2.svg',
     admin:"Admin",
     date:"14 Oct 2022",
     category:"Wood",
@@ -44,7 +40,7 @@ const blogs = [
   },
   {
     id:3,
-    image: bloghandmade,
+    image: '/svg/blog3.svg',
     admin:"Admin",
     date:"14 Oct 2022",
     category:"Wood",

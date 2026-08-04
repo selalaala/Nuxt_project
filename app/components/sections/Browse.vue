@@ -6,22 +6,22 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    <img src="../assets/svg/dining.svg" class="img-fluid" alt="">
+                <div class="col-lg-4 text-center">
+                    <img src="/svg/dining.svg" class="img-fluid" alt="">
                     <div class="card-body">
                         <h5 class="text-center">Dining</h5>
                     </div>
                 </div>
 
-                <div class="col-lg-4">
-                        <img src="../assets/svg/living.svg" class="img-fluid" alt="">
+                <div class="col-lg-4 text-center">
+                        <img src="/svg/living.svg" class="img-fluid" alt="">
                         <div class="card-body">
                             <h5 class="text-center">Living</h5>
                         </div>
                 </div>
             
-                <div class="col-lg-4">
-                        <img src="../assets/svg/bedroom.svg" class="img-fluid" alt="">
+                <div class="col-lg-4 text-center">
+                        <img src="/svg/bedroom.svg" class="img-fluid" alt="">
                         <div class="card-body">
                             <h5 class="text-center">Bedroom</h5>
                         </div>

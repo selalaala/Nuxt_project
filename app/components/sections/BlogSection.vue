@@ -5,8 +5,7 @@
 </template>
 
 <script setup>
-import BlogCard from './BlogCard.vue'
-
+import BlogCard from '~/components/cards/BlogCard.vue'
 defineProps({
   blogs: Array
 })

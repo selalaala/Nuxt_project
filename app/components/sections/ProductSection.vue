@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import ProductCard from './ProductCard.vue'
+import ProductCard from '~/components/cards/ProductCard.vue'
 defineProps({
   products: Array,
   showHeading: Boolean,

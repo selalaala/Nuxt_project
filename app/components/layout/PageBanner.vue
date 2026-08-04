@@ -1,7 +1,7 @@
 <template>
   <section class="banner">
     <div class="overlay">
-      <img src="../assets/svg/logo.svg" alt="Logo" class="logo" />
+      <img src="/svg/logo.svg" alt="Logo" class="logo" />
       <h1>{{ title }}</h1>
       <p>Home > {{ title }}</p>
     </div>
@@ -19,7 +19,7 @@ defineProps({
 
 <style scoped>
 .banner {
-  background: url('~/assets/svg/shop.svg') center/cover no-repeat;
+  background: url('/svg/shop.svg') center/cover no-repeat;
   height: 300px;
   display: flex;
   justify-content: center;

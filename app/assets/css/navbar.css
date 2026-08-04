@@ -93,3 +93,50 @@
   background: rgba(0, 0, 0, 0.4);
   z-index: 1040;
 }
+
+.menu-sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100vh;
+  background: white;
+  z-index: 1050;
+  padding: 25px;
+  transition: 0.3s ease;
+  box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+}
+
+.menu-sidebar.show {
+  right: 0;
+}
+
+.menu-sidebar .nav-link {
+  display: block;
+  padding: 15px 0;
+}
+
+@media (max-width: 576px) {
+  .menu-sidebar {
+    width: 100%;
+  }
+}
+
+.nav-right{
+    gap:20px;
+}
+
+.nav-right img{
+    width:24px;
+    cursor:pointer;
+}
+
+@media(max-width:991px){
+    .navbar{
+        padding:15px 20px;
+    }
+
+    .navbar-brand h2{
+        font-size:24px;
+    }
+}

@@ -15,7 +15,7 @@
                         </thead>
                         <tbody class="text-center">
                             <tr>
-                                <td><img src="../assets/svg/asgard-sofa.svg" alt="Logo" class="asgard-sofa" />Asgaard sofa</td>
+                                <td><img src="/svg/asgard-sofa.svg" alt="Logo" class="asgard-sofa" />Asgaard sofa</td>
                                 <td>Rp. 250,000.00</td>
                                 <td>1</td>
                                 <td>Rp. 250,000.00</td>
@@ -28,9 +28,19 @@
                     <div class="card">
                         <div class="">
                             <h3 class="text-center">Cart Totals</h3>
-                            <p>Subtotal: Rp. 250,000.00</p>
-                            <p>Total:   Rp. 250,000.00</p>
-                            <button class="btn"><NuxtLink to="/checkout" class="btn btn-outline-dark">Checkout</NuxtLink></button>
+                            <div class="d-flex justify-content-between mb-3">
+                                <span>Subtotal</span>
+                                <span class="text-secondary">Rp. 250,000.00</span>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <span>Total</span>
+                                <span class="text-warning">Rp. 250,000.00</span>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn">
+                                    <NuxtLink to="/checkout" class="btn btn-outline-dark">Checkout</NuxtLink>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -69,5 +79,21 @@
     border: none;
     border-radius: 0;
     background-color: #FFF3E3;
+}
+
+@media (max-width: 576px) {
+    .table {
+        font-size: 12px;
+    }
+
+    .asgard-sofa {
+        width: 60px;
+        margin-right: 5px;
+    }
+
+    .table td,
+    .table th {
+        padding: 8px 4px;
+    }
 }
 </style>

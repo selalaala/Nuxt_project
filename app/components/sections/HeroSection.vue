@@ -19,7 +19,7 @@
 
 <style scoped>
 .hero {
-    background:url('~/assets/svg/background-discover.svg') ;
+    background:url('/svg/background-discover.svg') ;
     min-height: 700px;
 }
 

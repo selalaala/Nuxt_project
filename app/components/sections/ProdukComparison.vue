@@ -1,13 +1,13 @@
 <template>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4">
+    <section class="product-comparison">
+        <div class="container px-lg-5 px-md-4 px-3">
+            <div class="row gx-4 gy-4 align-items-start">
+                <div class="col-xl-3 col-lg-3 col-md-6">
                     <h2>Go to Product page for more Products</h2>
                     <button class="btn btn-link text-secondary">View More</button>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <img src="../assets/svg/asgard-sofa.svg">
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <img src="/svg/asgard-sofa.svg">
                     <div>
                         <h5>Asgaard Sofa</h5>
                         <small>Rp. 250,000.00</small>
@@ -21,8 +21,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <img src="../assets/svg/outdoor-sofa.svg">
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <img src="/svg/outdoor-sofa.svg">
                     <div>
                         <h5>Outdoor Sofa Set</h5>
                         <small>Rp. 224,000.00</small>
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 py-4">
+                <div class="col-xl-3 col-lg-3 col-md-6">
                     <h3>Add a Product</h3>
                     <div class="dropdown">
                         <button class="btn btn-furniro dropdown-toggle" type="button" data-toggle="dropdown">Dropdown
@@ -53,3 +53,35 @@
         </div>
     </section>
 </template>
+
+<style scoped>
+@media (min-width: 992px) and (max-width: 1399px) {
+
+  .product-comparison .row {
+    --bs-gutter-x: 2rem; 
+  }
+
+  .product-comparison h2 {
+    font-size: 28px;
+  }
+
+  .product-comparison h5 {
+    font-size: 16px;
+  }
+
+  .product-comparison img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+  }
+
+  .product-comparison .col-lg-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .compare-select {
+    width: 100%;
+  }
+}
+</style>
