@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "leftProduct": {
+      "id": 1,
+      "name": "Asgaard Sofa",
+      "image": "/svg/asgard-sofa.svg",
+      "price": "Rp. 250.000",
+      "rating": "4.7",
+      "stars": 4,
+      "halfStar": true
+    },
+    "rightProduct": {
+      "id": 2,
+      "name": "Outdoor Sofa Set",
+      "image": "/svg/outdoor-sofa.svg",
+      "price": "Rp. 224.000",
+      "rating": "4.2",
+      "stars": 4,
+      "halfStar": true
+    }
+  }
+]

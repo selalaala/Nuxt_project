@@ -119,6 +119,7 @@
 @media (max-width: 576px) {
   .menu-sidebar {
     width: 100%;
+    right: -100%;
   }
 }
 

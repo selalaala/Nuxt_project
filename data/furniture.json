@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "/svg/furniture-1.svg",
+    "position": "left"
+  },
+  {
+    "id": 2,
+    "image": "/svg/furniture-2.svg",
+    "position": "left"
+  },
+  {
+    "id": 3,
+    "image": "/svg/furniture-3.svg",
+    "position": "left"
+  },
+  {
+    "id": 4,
+    "image": "/svg/furniture-4.svg",
+    "position": "left"
+  },
+  {
+    "id": 5,
+    "image": "/svg/furniture-5.svg",
+    "position": "center"
+  },
+  {
+    "id": 6,
+    "image": "/svg/furniture-6.svg",
+    "position": "right"
+  },
+  {
+    "id": 7,
+    "image": "/svg/furniture-7.svg",
+    "position": "right"
+  },
+  {
+    "id": 8,
+    "image": "/svg/furniture-8.svg",
+    "position": "right"
+  },
+  {
+    "id": 9,
+    "image": "/svg/furniture-9.svg",
+    "position": "right"
+  }
+]

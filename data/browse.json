@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Dining",
+    "image": "/svg/dining.svg"
+  },
+  {
+    "id": 2,
+    "name": "Living",
+    "image": "/svg/living.svg"
+  },
+  {
+    "id": 3,
+    "name": "Bedroom",
+    "image": "/svg/bedroom.svg"
+  }
+]

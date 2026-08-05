@@ -8,7 +8,7 @@
                     <BlogSection :blogs="blogs"/>
                 </div>
                 <div class="col-lg-4">
-                    <BlogKanan />
+                    <BlogKanan :categories="categories" :recentPosts="recentPosts" />
                 </div>
             </div>
         </div>
@@ -19,33 +19,7 @@
 
 
 <script setup>
-const blogs = [
-  {
-    id:1,
-    image: '/svg/blog1.svg',
-    admin:"Admin",
-    date:"14 Oct 2022",
-    category:"Wood",
-    title:"Going all-in with millennial design",
-    desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum."
-  },
-  {
-    id:2,
-    image: '/svg/blog2.svg',
-    admin:"Admin",
-    date:"14 Oct 2022",
-    category:"Wood",
-    title:"Exploring new ways of decorating",
-    desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum."
-  },
-  {
-    id:3,
-    image: '/svg/blog3.svg',
-    admin:"Admin",
-    date:"14 Oct 2022",
-    category:"Wood",
-    title:"Handmade pieces that took time to make",
-    desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum."
-  }
-]
+import blogs from '../../data/blog.json'
+import categories from '../../data/categories.json'
+import recentPosts from '../../data/recentPosts.json'
 </script>

@@ -9,8 +9,8 @@
       <div class="overlay">
         <button class="btn"><NuxtLink to="/cart" class="btn btn-cart">Add to Cart</NuxtLink></button>
         <div class="overlay-menu">
-          <span><i class="bi bi-share"></i> <NuxtLink to="/sofa" class="btn-link text-light text-decoration-none">Share</NuxtLink> </span>
-          <span><i class="bi bi-arrow-left-right">  </i><NuxtLink to="/produk-comparison" class="btn-link text-light text-decoration-none">Compare</NuxtLink></span>
+          <span><i class="bi bi-share"></i> <NuxtLink :to="`/sofa/${product.id}`"  class="btn-link text-light text-decoration-none">Share</NuxtLink> </span>
+          <span><i class="bi bi-arrow-left-right">  </i><NuxtLink :to="`/produkcomparison/${product.id}`" class="btn-link text-light text-decoration-none">Compare</NuxtLink></span>
         </div>
       </div>
     </div>

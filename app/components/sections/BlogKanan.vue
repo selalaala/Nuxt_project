@@ -25,64 +25,8 @@
 </template>
 
 <script setup>
-const categories = [
-  {
-    id:1,
-    name:"Crafts",
-    total:2
-  },
-  {
-    id:2,
-    name:"Design",
-    total:8
-  },
-  {
-    id:3,
-    name:"Handmade",
-    total:7
-  },
-  {
-    id:4,
-    name:"Interior",
-    total:1
-  },
-  {
-    id:5,
-    name:"Wood",
-    total:6
-  }
-]
-
-const recentPosts = [
-  {
-    id:1,
-    image: "/svg/blogkanan1.svg",
-    title: "Going all-in with millennial design",
-    date: "03 Aug 2022"
-  },
-  {
-    id:2,
-    image: "/svg/blogkanan2.svg",
-    title:"Exploring new ways of decorating",
-    date:"03 Aug 2022"
-  },
-  {
-    id:3,
-    image: "/svg/bloghandmade.svg",
-    title:"Handmade pieces that took time to make",
-    date:"03 Aug 2022"
-  },
-  {
-    id:4,
-    image: "/svg/blogkanan4.svg",
-    title:"Modern home in Milan",
-    date:"03 Aug 2022"
-  },
-  {
-    id:5,
-    image:"/svg/blogkanan5.svg",
-    title:"Colorful office redesign",
-    date:"03 Aug 2022"
-  }
-]
+defineProps({
+ categories : Array,
+ recentPosts : Array
+})
 </script>

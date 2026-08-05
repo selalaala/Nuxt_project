@@ -14,12 +14,17 @@
                             </tr>
                         </thead>
                         <tbody class="text-center">
-                            <tr>
-                                <td><img src="/svg/asgard-sofa.svg" alt="Logo" class="asgard-sofa" />Asgaard sofa</td>
-                                <td>Rp. 250,000.00</td>
-                                <td>1</td>
-                                <td>Rp. 250,000.00</td>
-                                <td><i class="bi bi-trash trash"></i></td>
+                            <tr v-for="item in cartItems" :key="item.id">
+                                <td>
+                                    <img :src="item.image" :alt="item.name" class="asgard-sofa" />
+                                    {{ item.name }}
+                                </td>
+                                <td>{{ item.price }}</td>
+                                <td>{{ item.quantity }}</td>
+                                <td>{{ item.subtotal }}</td>
+                                <td>
+                                    <i class="bi bi-trash trash"></i>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -30,11 +35,11 @@
                             <h3 class="text-center">Cart Totals</h3>
                             <div class="d-flex justify-content-between mb-3">
                                 <span>Subtotal</span>
-                                <span class="text-secondary">Rp. 250,000.00</span>
+                                <span class="text-secondary">Rp. {{ cartSummary.subtotal}}</span>
                             </div>
                             <div class="d-flex justify-content-between mb-3">
                                 <span>Total</span>
-                                <span class="text-warning">Rp. 250,000.00</span>
+                                <span class="text-warning">Rp. {{ cartSummary.total}}</span>
                             </div>
                             <div class="text-center">
                                 <button class="btn">
@@ -97,3 +102,10 @@
     }
 }
 </style>
+
+<script setup>
+defineProps({
+  cartItems: Array,
+  cartSummary: Object
+})
+</script>

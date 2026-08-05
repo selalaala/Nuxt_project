@@ -6,73 +6,54 @@
           <div class="row">
             <div class="col-2">
               <div class="d-flex flex-column gap-3">
-                <div>
-                  <img src="/svg/sofa.svg" class="img-fluid">
-                </div>
-                <div>
-                  <img src="/svg/sofa.svg" class="img-fluid">
-                </div>
-                <div>
-                  <img src="/svg/sofa.svg" class="img-fluid">
-                </div>
-                <div>
-                  <img src="/svg/sofa.svg" class="img-fluid">
+                <div v-for="(image, index) in detailproduk.gallery" :key="index">
+                  <img :src="image" class="img-fluid">
                 </div>
               </div>
             </div>
 
             <div class="col-10">
               <div class="text-center">
-                <img src="/svg/sofa.svg" class="img-fluid">
+                <img :src="detailproduk.image" class="img-fluid">
               </div>
             </div>
           </div>
         </div>
-        
+
         <div class="col-lg-6">
           <h1 class="fw-normal mb-2">
-            Asgaard sofa
+            {{ detailproduk.name }}
           </h1>
           <h4 class="text-secondary mb-3">
-            Rs. 250,000.00
+            {{ detailproduk.price }}
           </h4>
           <div class="d-flex align-items-center gap-3 mb-3">
             <div class="text-warning">
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-half"></i>
+              <i v-for="n in Math.floor(detailproduk?.rating || 0)" :key="n" class="bi bi-star-fill"></i>
+              <i v-if="detailproduk?.rating && detailproduk.rating % 1 !== 0" class="bi bi-star-half"></i>
             </div>
+
             <div class="vr"></div>
             <small class="text-secondary">
-              5 Customer Review
+              {{ detailproduk.review }}
             </small>
           </div>
           <p class="text-secondary">
-            Setting the bar as one of the loudest speakers in its class...
+            {{ detailproduk.description }}
           </p>
           <small class="text-secondary">
             Size
           </small>
           <div class="d-flex gap-2 mt-2 mb-4">
-            <button class="btn btn-furniro btn-sm">
-              L
-            </button>
-            <button class="btn btn-light btn-sm border">
-              XL
-            </button>
-            <button class="btn btn-light btn-sm border">
-              XS
+            <button v-for="size in detailproduk.size" :key="size" class="btn btn-light btn-sm border">
+              {{ size }}
             </button>
           </div>
           <small class="text-secondary">
             Color
           </small>
           <div class="d-flex gap-3 mt-2 mb-4">
-            <span class="rounded-circle bg-primary color-dot"></span>
-            <span class="rounded-circle bg-dark color-dot"></span>
-            <span class="rounded-circle bg-furniro color-dot"></span>
+            <span v-for="color in detailproduk.colors" :key="color" class="rounded-circle color-dot" :style="{ backgroundColor: color }"></span>
           </div>
 
           <div class="d-flex flex-wrap gap-3">
@@ -81,8 +62,12 @@
               <span class="mx-3">1</span>
               <button class="btn btn-sm">+</button>
             </div>
-            <NuxtLink to="/cart" class="btn btn-outline-dark px-4 py-3">Add To Cart</NuxtLink>
-            <NuxtLink to="/produk-comparison" class="btn btn-outline-dark px-4 py-3">+ Compare</NuxtLink>
+            <NuxtLink to="/cart" class="btn btn-outline-dark px-4 py-3">
+              Add To Cart
+            </NuxtLink>
+            <NuxtLink :to="`/produkcomparison/${detailproduk.id}`" class="btn btn-outline-dark px-4 py-3">
+              + Compare
+            </NuxtLink>
           </div>
 
           <hr class="my-5">
@@ -90,15 +75,15 @@
             <tbody>
               <tr>
                 <td width="120">SKU</td>
-                <td>: SS001</td>
+                <td>: {{ detailproduk.sku }}</td>
               </tr>
               <tr>
                 <td>Category</td>
-                <td>: Sofas</td>
+                <td>: {{ detailproduk.category }}</td>
               </tr>
               <tr>
                 <td>Tags</td>
-                <td>: Sofa, Chair, Home, Shop</td>
+                <td>: {{ detailproduk.tags }}</td>
               </tr>
               <tr>
                 <td>Share</td>
@@ -137,3 +122,9 @@
     }
 }
 </style>
+
+<script setup>
+defineProps({
+  detailproduk: Object
+})
+</script>

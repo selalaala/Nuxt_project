@@ -4,19 +4,13 @@
     <h2>#FuniroFurniture</h2>
     <div class="gallery">
         <div class="left">
-            <img src="/svg/furniture-1.svg">
-            <img src="/svg/furniture-2.svg">
-            <img src="/svg/furniture-3.svg">
-            <img src="/svg/furniture-4.svg">
+            <img v-for="item in leftImages" :key="item.id" :src="item.image">
         </div>
         <div class="center">
-            <img src="/svg/furniture-5.svg">
+            <img :src="centerImage.image">
         </div>
         <div class="right">
-            <img src="/svg/furniture-6.svg">
-            <img src="/svg/furniture-7.svg">
-            <img src="/svg/furniture-8.svg">
-            <img src="/svg/furniture-9.svg">
+            <img v-for="item in rightImages" :key="item.id":src="item.image">
         </div>
     </div>
  </section>
@@ -73,3 +67,18 @@
     }
 }
 </style>
+<script setup>
+import { computed } from 'vue'
+const props = defineProps({
+  furnitures: Array
+})
+const leftImages = computed(() =>
+  props.furnitures.filter(item => item.position === 'left')
+)
+const centerImage = computed(() =>
+  props.furnitures.find(item => item.position === 'center')
+)
+const rightImages = computed(() =>
+  props.furnitures.filter(item => item.position === 'right')
+)
+</script>

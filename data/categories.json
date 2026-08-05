@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Crafts",
+    "total": 2
+  },
+  {
+    "id": 2,
+    "name": "Design",
+    "total": 8
+  },
+  {
+    "id": 3,
+    "name": "Handmade",
+    "total": 7
+  },
+  {
+    "id": 4,
+    "name": "Interior",
+    "total": 1
+  },
+  {
+    "id": 5,
+    "name": "Wood",
+    "total": 6
+  }
+]

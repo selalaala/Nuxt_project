@@ -59,17 +59,23 @@
       <div class="col-lg-5">
         <h5 class="fw-bold mb-4">Product</h5>
         <div class="d-flex justify-content-between mb-3">
-            <span>Asgaard sofa × 1</span>
-            <span>Rs. 250,000.00</span>
-        </div>
-        <div class="d-flex justify-content-between mb-3">
+             <span>
+              {{ checkout.product.name }} × {{ checkout.product.quantity }}
+            </span>
+            <span>{{ checkout.product.price }}</span>    
+          </div>
+
+          <div class="d-flex justify-content-between mb-3">
             <span>Subtotal</span>
-            <span>Rs. 250,000.00</span>
-        </div>
-        <div class="d-flex justify-content-between border-bottom pb-3 mb-3">
+            <span>{{ checkout.subtotal }}</span>    
+          </div>
+
+          <div class="d-flex justify-content-between border-bottom pb-3 mb-3">
             <strong>Total</strong>
-            <strong class="text-warning">Rs. 250,000.00</strong>
-        </div>
+            <strong class="text-warning">
+              {{ checkout.total }}
+            </strong>
+          </div>
         <div class="form-check">
             <input class="form-check-input" type="radio" checked>
             <label class="form-check-label">Direct Bank Transfer</label>
@@ -106,3 +112,9 @@ textarea.form-control{
 }
 
 </style>
+
+<script setup>
+defineProps({
+  checkout: Object
+})
+</script>
