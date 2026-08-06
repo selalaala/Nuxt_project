@@ -75,7 +75,7 @@
       <div class="mt-3 d-flex gap-2">
         <button @click="goToPage('/cart')" class="btn btn-outline-dark">Cart</button>
         <button @click="goToPage('/checkout')" class="btn btn-outline-dark">Checkout</button>
-        <button @click="goToPage('/produk-comparison')" class="btn btn-outline-dark">Comparison</button>
+        <button @click="goToPage('/')" class="btn btn-outline-dark">Comparison</button>
       </div>
     </div>
   </div>

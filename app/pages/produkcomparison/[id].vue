@@ -13,7 +13,6 @@
 import comparisons from '../../../data/produkcomparison.json'
 
 const route = useRoute()
-
 const comparison = comparisons.find(
   item => item.id === Number(route.params.id)
 )

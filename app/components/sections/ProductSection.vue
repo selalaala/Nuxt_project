@@ -8,7 +8,7 @@
         <ProductCard v-for="item in products" :key="item.id" :product="item"/>
       </div>
       <div class="text-center mt-4" v-if="showButton">
-        <button class="btn btn-outline-primary btn-show"><NuxtLink to="/shop">Show More</NuxtLink></button>
+        <button class="btn"><NuxtLink to="/shop" class="btn btn-outline-primary btn-show">Show More</NuxtLink></button>
       </div>
     </div>
   </section>

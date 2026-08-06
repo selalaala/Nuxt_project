@@ -11,7 +11,7 @@
     </div>
     <h3 class="mt-3">{{ blog.title }}</h3>
     <p class="text-secondary">{{ blog.desc }}</p>
-    <button class="btn btn-link text-black">Read More</button>
+    <button class="btn btn-link text-black"><NuxtLink :to="`/blog/${blog.id}`">Read More</NuxtLink></button>
   </div>
 </template>
 

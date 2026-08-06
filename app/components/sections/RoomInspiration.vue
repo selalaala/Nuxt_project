@@ -5,7 +5,7 @@
             <div class="col-lg-4">
                 <h2 class="fw-bold display-6">50+ Beautiful rooms inspiration</h2>
                 <p class="text-secondary my-4">Our designer already made a lot of beautiful prototype of rooms that inspire you.</p>
-                <button class="btn btn-room px-4 py-3"> Explore More</button>
+                <button class="btn btn-room px-4 py-3"> <NuxtLink to="/shop" class="text-white text-decoration-none">Explore More</NuxtLink></button>
             </div>
             <div class="col-lg-4">
                 <div class="position-relative">

@@ -8,7 +8,7 @@
               <small>New Arrival</small>
               <h1 class="hero-tittle">Discover Our <br> New Collection</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-              <button class="btn btn-furniro">Buy Now</button>
+              <button class="btn btn-furniro"><NuxtLink to="/shop" class="text-white text-decoration-none">Buy Now</NuxtLink></button>
             </div>
           </div>
         </div>

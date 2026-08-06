@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "name": "Asgaard sofa",
-    "price": "Rs. 250,000.00",
-    "description": "Setting the bar as one of the loudest speakers in its class...",
-    "image": "/svg/sofa.svg",
+    "name": "Slytherine",
+    "price": "Rp 2.500.000",
+    "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+    "image": "/svg/detail-slytherine.svg",
     "gallery": [
-      "/svg/sofa.svg",
-      "/svg/sofa.svg",
-      "/svg/sofa.svg",
-      "/svg/sofa.svg"
+      "/svg/img-pinggir-1.svg",
+      "/svg/img-pinggir-2.svg",
+      "/svg/img-pinggir-3.svg",
+      "/svg/img-pinggir-4.svg"
     ],
     "rating": 4.5,
     "review": "5 Customer Review",
@@ -18,5 +18,145 @@
     "sku": "SS001",
     "category": "Sofas",
     "tags": "Sofa, Chair, Home, Shop"
+  },
+  {
+    "id": 2,
+    "name": "Leviosa",
+    "price": "Rp 2.500.000",
+    "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+    "image": "/svg/detail-leviosa.svg",
+    "gallery": [
+      "/svg/img-pinggir-1.svg",
+      "/svg/img-pinggir-2.svg",
+      "/svg/img-pinggir-3.svg",
+      "/svg/img-pinggir-4.svg"
+    ],
+    "rating": 4.7,
+    "review": "7 Customer Review",
+    "size": ["L", "XL", "XS"],
+    "colors": ["#7F8C8D", "#000000", "#895129"],
+    "sku": "SS002",
+    "category": "Styles cafe chair",
+    "tags": "Sofa, Chair, Home, Shop"
+  },
+  {
+    "id": 3,
+    "name": "Lolito",
+    "price": "Rp 7.000.000",
+    "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+    "image": "/svg/detail-lolito.svg",
+    "gallery": [
+      "/svg/img-pinggir-1.svg",
+      "/svg/img-pinggir-2.svg",
+      "/svg/img-pinggir-3.svg",
+      "/svg/img-pinggir-4.svg"
+    ],
+    "rating": 4.3,
+    "review": "3 Customer Review",
+    "size": ["L", "XL", "XS"],
+    "colors": ["#7F8C8D", "#D6B58B", "#FFE4C4"],
+    "sku": "SS003",
+    "category": "Luxury big sofa",
+    "tags": "Sofa, Chair, Home, Shop"
+  },
+  {
+    "id": 4,
+    "name": "Respira",
+    "price": "Rp 500.000",
+    "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+    "image": "/svg/detail-respira.svg",
+    "gallery": [
+      "/svg/img-pinggir-1.svg",
+      "/svg/img-pinggir-2.svg",
+      "/svg/img-pinggir-3.svg",
+      "/svg/img-pinggir-4.svg"
+    ],
+    "rating": 4.5,
+    "review": "9 Customer Review",
+    "size": ["L", "M", "XS"],
+    "colors": ["#CBAC8E", "#9A7B4F", "#785036"],
+    "sku": "SS004",
+    "category": "Oudoor bar table and stool",
+    "tags": "Bar table, Table, Home, Shop"
+  },
+  {
+    "id": 5,
+    "name": "Grifo",
+    "price": "Rp 1.500.000",
+    "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+    "image": "/svg/detail-grifo.svg",
+    "gallery": [
+      "/svg/img-pinggir-1.svg",
+      "/svg/img-pinggir-2.svg",
+      "/svg/img-pinggir-3.svg",
+      "/svg/img-pinggir-4.svg"
+    ],
+    "rating": 4.2,
+    "review": "5 Customer Review",
+    "size": ["L", "XL", "XS"],
+    "colors": ["#FFEBCD", "#F1D3AB", "#CD853F"],
+    "sku": "SS005",
+    "category": "Night lamp",
+    "tags": "Lamp, Night lamp, Home, Shop"
+  },
+  {
+    "id": 6,
+    "name": "Muggo",
+    "price": "Rp 150.000",
+    "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+    "image": "/svg/detail-muggo.svg",
+    "gallery": [
+      "/svg/img-pinggir-1.svg",
+      "/svg/img-pinggir-2.svg",
+      "/svg/img-pinggir-3.svg",
+      "/svg/img-pinggir-4.svg"
+    ],
+    "rating": 4.2,
+    "review": "3 Customer Review",
+    "size": ["L", "M", "XL"],
+    "colors": ["#3B270C", "#362312", "#2B1700"],
+    "sku": "SS006",
+    "category": "Small mug",
+    "tags": "Chair, Sofa, Home, Shop"
+  },
+  {
+    "id": 7,
+    "name": "Pinky",
+    "price": "Rp 7.000.000",
+    "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+    "image": "/svg/detail-pinky.svg",
+    "gallery": [
+      "/svg/img-pinggir-1.svg",
+      "/svg/img-pinggir-2.svg",
+      "/svg/img-pinggir-3.svg",
+      "/svg/img-pinggir-4.svg"
+    ],
+    "rating": 4.9,
+    "review": "15 Customer Review",
+    "size": ["M", "L", "XL"],
+    "colors": ["#D3D3D3", "#808080", "#696969"],
+    "sku": "SS007",
+    "category": "Cute bed set",
+    "tags": "Bed, Sofa, Home, Shop"
+  },
+  {
+    "id": 8,
+    "name": "Potty",
+    "price": "Rp 500.000",
+    "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+    "image": "/svg/detail-potty.svg",
+    "gallery": [
+      "/svg/img-pinggir-1.svg",
+      "/svg/img-pinggir-2.svg",
+      "/svg/img-pinggir-3.svg",
+      "/svg/img-pinggir-4.svg"
+    ],
+    "rating": 4.6,
+    "review": "7 Customer Review",
+    "size": ["S", "L", "M"],
+    "colors": ["#E79A3B", "#D98C2B", "#C97A2B"],
+    "sku": "SS008",
+    "category": "Minimalist flower pot",
+    "tags": "Flower pot, Pot, Home, Shop"
   }
 ]

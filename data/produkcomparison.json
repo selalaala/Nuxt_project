@@ -3,8 +3,50 @@
     "id": 1,
     "leftProduct": {
       "id": 1,
-      "name": "Asgaard Sofa",
-      "image": "/svg/asgard-sofa.svg",
+      "name": "Slytherine",
+      "image": "/svg/comparison-stytherine.svg",
+      "price": "Rp. 2.500.000",
+      "rating": "4.5",
+      "stars": 4,
+      "halfStar": true
+    },
+    "rightProduct": {
+      "id": 2,
+      "name": "Outdoor Slytherine",
+      "image": "/svg/comparison-stytherine.svg",
+      "price": "Rp. 2.500.000",
+      "rating": "4.3",
+      "stars": 4,
+      "halfStar": true
+    }
+  },
+  {
+    "id": 2,
+    "leftProduct": {
+      "id": 1,
+      "name": "Leviosa",
+      "image": "/svg/comparison-leviosa.svg",
+      "price": "Rp. 2.500.000",
+      "rating": "4.7",
+      "stars": 4,
+      "halfStar": true
+    },
+    "rightProduct": {
+      "id": 2,
+      "name": "Outdoor Leviosa",
+      "image": "/svg/comparison-leviosa.svg",
+      "price": "Rp. 2.500.000",
+      "rating": "4.7",
+      "stars": 4,
+      "halfStar": true
+    }
+  },
+  {
+    "id": 3,
+    "leftProduct": {
+      "id": 1,
+      "name": "Lolito",
+      "image": "/svg/comparison-lolito.svg",
       "price": "Rp. 250.000",
       "rating": "4.7",
       "stars": 4,
@@ -12,10 +54,115 @@
     },
     "rightProduct": {
       "id": 2,
-      "name": "Outdoor Sofa Set",
-      "image": "/svg/outdoor-sofa.svg",
-      "price": "Rp. 224.000",
+      "name": "Outdoor lolito",
+      "image": "/svg/comparison-lolito.svg",
+      "price": "Rp. 250.000",
+      "rating": "4.7",
+      "stars": 4,
+      "halfStar": true
+    }
+  },
+  {
+    "id": 4,
+    "leftProduct": {
+      "id": 1,
+      "name": "Respira",
+      "image": "/svg/comparison-respira.svg",
+      "price": "Rp. 500.000",
+      "rating": "4.5",
+      "stars": 4,
+      "halfStar": true
+    },
+    "rightProduct": {
+      "id": 2,
+      "name": "Outdoor Respira",
+      "image": "/svg/comparison-respira.svg",
+      "price": "Rp. 500.000",
+      "rating": "4.5",
+      "stars": 4,
+      "halfStar": true
+    }
+  },
+  {
+    "id": 5,
+    "leftProduct": {
+      "id": 1,
+      "name": "Grifo",
+      "image": "/svg/comparison-grifo.svg",
+      "price": "Rp. 1.500.000",
       "rating": "4.2",
+      "stars": 4,
+      "halfStar": true
+    },
+    "rightProduct": {
+      "id": 2,
+      "name": "Outdoor Grifo",
+      "image": "/svg/comparison-grifo.svg",
+      "price": "Rp. 1.500.000",
+      "rating": "4.2",
+      "stars": 4,
+      "halfStar": true
+    }
+  },
+  {
+    "id": 6,
+    "leftProduct": {
+      "id": 1,
+      "name": "Muggo",
+      "image": "/svg/comparison-muggo.svg",
+      "price": "Rp. 150.000",
+      "rating": "4.2",
+      "stars": 4,
+      "halfStar": true
+    },
+    "rightProduct": {
+      "id": 2,
+      "name": "Outdoor muggo",
+      "image": "/svg/comparison-muggo.svg",
+      "price": "Rp. 150.000",
+      "rating": "4.2",
+      "stars": 4,
+      "halfStar": true
+    }
+  },
+  {
+    "id": 7,
+    "leftProduct": {
+      "id": 1,
+      "name": "Pinky",
+      "image": "/svg/comparison-pinky.svg",
+      "price": "Rp. 7.000.000",
+      "rating": "4.9",
+      "stars": 4,
+      "halfStar": true
+    },
+    "rightProduct": {
+      "id": 2,
+      "name": "Outdoor Pinky",
+      "image": "/svg/comparison-pinky.svg",
+      "price": "Rp. 7.000.000",
+      "rating": "4.9",
+      "stars": 4,
+      "halfStar": true
+    }
+  },
+  {
+    "id": 8,
+    "leftProduct": {
+      "id": 1,
+      "name": "Potty",
+      "image": "/svg/comparison-potty.svg",
+      "price": "Rp. 500.000",
+      "rating": "4.6",
+      "stars": 4,
+      "halfStar": true
+    },
+    "rightProduct": {
+      "id": 2,
+      "name": "Outdoor potty",
+      "image": "/svg/comparison-potty.svg",
+      "price": "Rp. 500.000",
+      "rating": "4.6",
       "stars": 4,
       "halfStar": true
     }
