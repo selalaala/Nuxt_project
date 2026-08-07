@@ -19,7 +19,7 @@
 
 
 <script setup>
-import blogs from '../../data/blog.json'
-import categories from '../../data/categories.json'
-import recentPosts from '../../data/recentPosts.json'
+import blogs from '../../../data/blog.json'
+import categories from '../../../data/categories.json'
+import recentPosts from '../../../data/recentPosts.json'
 </script>

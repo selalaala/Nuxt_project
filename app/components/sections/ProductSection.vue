@@ -1,14 +1,16 @@
 <template>
   <section>
-    <div class="row text-center" v-if="showHeading">
-      <h3>Our Products</h3>
+    <div class="container">
+      <div class="row text-center" v-if="showHeading">
+        <h3>Our Products</h3>
+      </div>
     </div>
     <div class="container">
       <div class="row">
         <ProductCard v-for="item in products" :key="item.id" :product="item"/>
       </div>
       <div class="text-center mt-4" v-if="showButton">
-        <button class="btn"><NuxtLink to="/shop" class="btn btn-outline-primary btn-show">Show More</NuxtLink></button>
+        <button class="btn"><NuxtLink to="/shop" class="btn btn-outline-warning btn-show">Show More</NuxtLink></button>
       </div>
     </div>
   </section>

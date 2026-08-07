@@ -41,7 +41,7 @@ defineProps({
 }
 
 .product-info {
-  padding-top: 10px;
+  padding: 10px 15px;
   background-color: #F4F5F7;
 }
 

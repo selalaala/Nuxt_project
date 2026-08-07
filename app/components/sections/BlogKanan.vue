@@ -16,7 +16,9 @@
       <div class="d-flex gap-3 mb-4" v-for="post in recentPosts" :key="post.id">
         <img :src="post.image" width="80" class="rounded">
         <div>
-          <p class="mb-1">{{ post.title }}</p>
+          <NuxtLink :to="`/blog/${post.id}`" class="text-decoration-none text-dark">
+            <p class="mb-1">{{ post.title }}</p>
+          </NuxtLink>
           <small>{{ post.date }}</small>
         </div>
       </div>

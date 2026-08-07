@@ -1,8 +1,10 @@
 <template>
   <section>
-    <div class="row text-center">
-      <h3>Browse The Range</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="container">
+      <div class="row text-center">
+        <h3>Browse The Range</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
     </div>
 
     <div class="container">

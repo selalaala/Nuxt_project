@@ -74,7 +74,7 @@
           </div>
           <div class="compare-item">1 Year</div>
           <button class="btn btn-furniro mt-4">
-            Add To Cart
+            <NuxtLink to="/cart" class="text-light text-decoration-none">Add To Cart</NuxtLink>
           </button>
         </div>
 
@@ -122,7 +122,7 @@
           </div>
           <div class="compare-item">3 Month</div>
           <button class="btn btn-furniro mt-4">
-            Add To Cart
+            <NuxtLink to="/cart" class="text-light text-decoration-none">Add To Cart</NuxtLink>
           </button>
         </div>
       </div>

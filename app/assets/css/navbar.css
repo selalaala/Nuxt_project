@@ -77,6 +77,23 @@
   box-shadow: -5px 0 15px rgba(0,0,0,0.1);
   transition: 0.3s ease;
   padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-items {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.cart-footer {
+  padding-top: 10px;
+}
+
+.cart-footer .btn {
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 6px 18px;
 }
 
 .cart-sidebar.show {

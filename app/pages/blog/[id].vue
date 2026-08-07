@@ -2,7 +2,7 @@
     <div>
         <Navbar />
         <PageBanner title="Blog Detail" />
-        <DetailBlog :blog="blog"/>
+        <Detailblog :blog="blog"/>
         <Quality />
         <Footer />
     </div>

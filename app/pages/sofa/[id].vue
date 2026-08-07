@@ -1,7 +1,7 @@
 <template>
     <div>
         <Navbar />
-        <Breakcrumb title="Slytherine" />
+        <Breakcrumb :title="detailprodukItem.name" />
         <Sofa :detailproduk="detailprodukItem"/>
         <Deskripsi />
         <ProductSection :showHeading="true" :products="sofaProducts" :showButton="true"/>

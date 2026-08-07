@@ -46,13 +46,16 @@
     <NuxtLink to="/contact" class="nav-link" @click="menuOpen=false">Contact</NuxtLink>
   </div>
 
-  <div class="cart-overlay" v-if="cartOpen" @click="cartOpen=false"></div>
-  <div class="cart-sidebar":class="{show: cartOpen}">
-    <div class="d-flex justify-content-between align-items-center">
-      <h5>Shopping Cart</h5>
-      <img src="/svg/close.svg" class="close-icon" @click="cartOpen=false"/>
+  <div class="cart-overlay" v-if="cartOpen" @click="cartOpen = false"></div>
+  <div class="cart-sidebar" :class="{ show: cartOpen }">
+    <div>
+      <div class="d-flex justify-content-between align-items-center">
+        <h5>Shopping Cart</h5>
+        <img src="/svg/close.svg" class="close-icon" @click="cartOpen = false" />
+      </div>
+      <hr>
     </div>
-    <div class="mt-4">
+    <div class="cart-items">
       <div class="d-flex align-items-center mb-3">
         <img src="/svg/sofa.svg" width="70">
         <div class="ms-3">
@@ -67,15 +70,17 @@
           <small>1 × Rp. 270,000.00</small>
         </div>
       </div>
-      <hr>
-      <div class="d-flex justify-content-between">
+    </div>
+    <div class="cart-footer">
+      <div class="d-flex justify-content-between mb-3">
         <span>Subtotal</span>
-        <strong>Rp. 520,000.00</strong>
+        <strong class="text-warning">Rp. 520,000.00</strong>
       </div>
-      <div class="mt-3 d-flex gap-2">
+      <hr>
+      <div class="d-flex justify-content-between gap-2">
         <button @click="goToPage('/cart')" class="btn btn-outline-dark">Cart</button>
         <button @click="goToPage('/checkout')" class="btn btn-outline-dark">Checkout</button>
-        <button @click="goToPage('/')" class="btn btn-outline-dark">Comparison</button>
+        <button @click="goToPage('/produkcomparison/1')" class="btn btn-outline-dark">Comparison</button>
       </div>
     </div>
   </div>
